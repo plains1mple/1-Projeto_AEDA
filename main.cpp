@@ -1,6 +1,15 @@
 #include <iostream>
+#include <string>
+#include "ServicoTransporte.h"
+#include "Person.h"
+#include "camiao.h"
+#include "Empresa.h"
+#include "menus.h"
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    string file = "../empresa.txt";
+    Empresa e1(file);
+    mainMenu(e1);
     return 0;
 }
