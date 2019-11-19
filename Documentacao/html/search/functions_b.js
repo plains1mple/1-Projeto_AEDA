@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['servicoinexistente_229',['ServicoInexistente',['../class_servico_inexistente.html#ae6ea51af43c9a1ab6448c1d4ba4aabf1',1,'ServicoInexistente']]],
+  ['servicotransporte_230',['ServicoTransporte',['../class_servico_transporte.html#ae37493446ee94b0747953104832b7b5f',1,'ServicoTransporte']]],
+  ['setage_231',['setAge',['../class_person.html#ac8ade54c27a0657c987c395ff04a9d46',1,'Person']]],
+  ['setcamioes_232',['setCamioes',['../class_empresa.html#a350a4381e81c84a23a60ef5123dfc201',1,'Empresa::setCamioes()'],['../class_servico_transporte.html#a7a9eb5f5a501b2d796e68731c620734e',1,'ServicoTransporte::setCamioes()']]],
+  ['setcapacidade_233',['setCapacidade',['../class_camiao.html#a6a35f9972d09dec45b7a68667f4dc0f6',1,'Camiao']]],
+  ['setcategorias_234',['setCategorias',['../class_motorista.html#a3c12478dd2dae4f5a7f2fe65b6cba3bb',1,'Motorista']]],
+  ['setclientes_235',['setClientes',['../class_empresa.html#ae16122b1a4fa81990b083f717309d889',1,'Empresa']]],
+  ['setdate_236',['setDate',['../class_servico_transporte.html#a5e4317f21128c569611b46b4ecdd2c11',1,'ServicoTransporte']]],
+  ['setdestino_237',['setDestino',['../class_servico_transporte.html#ae7ecc0586b9718c64c9da92c6560837a',1,'ServicoTransporte']]],
+  ['setdisponibilidade_238',['setDisponibilidade',['../class_servico_transporte.html#aacd3cf068b3ee22a71c5305c644241d4',1,'ServicoTransporte']]],
+  ['sethorario_239',['setHorario',['../class_motorista.html#a8415d43dd3ed1f1b40e196668ac3bc06',1,'Motorista::setHorario(pair&lt; string, string &gt; time)'],['../class_motorista.html#a45d466e4a6b6deca74289ee175bd220f',1,'Motorista::setHorario(string inicio, string fim)'],['../class_servico_transporte.html#a91ee5e377fce96e87030fe2f8f98e18f',1,'ServicoTransporte::setHorario()']]],
+  ['setid_240',['setId',['../class_camiao.html#a8a7218ff1a99d6fe6a43f7c87085aac5',1,'Camiao::setId()'],['../class_servico_transporte.html#a7c711d73120acb937ae13dd057a9af17',1,'ServicoTransporte::setId()']]],
+  ['setkmpercorridos_241',['setkmPercorridos',['../class_camiao.html#a22d0eb81150af69764de7f21ba9eafde',1,'Camiao']]],
+  ['setmarca_242',['setMarca',['../class_camiao.html#a01e0eff9bc6286a51f86f361a86d1bae',1,'Camiao']]],
+  ['setmotoristas_243',['setMotoristas',['../class_empresa.html#a5c6b9a03cb16554d68d01d8d7a94b19c',1,'Empresa']]],
+  ['setname_244',['setName',['../class_person.html#a9fa68f82727e6de0137b3c1b1537a0bf',1,'Person']]],
+  ['setnif_245',['setNif',['../class_cliente.html#a3cfc13c35d09386b9c7f2f88df3cc651',1,'Cliente']]],
+  ['setnivel_246',['setNivel',['../class_perigosos.html#a942291ab7e92826eb0095a0f344528b1',1,'Perigosos']]],
+  ['setnumanimais_247',['setNumAnimais',['../class_animais.html#adab8d1ce08b61061dca21a21829ed436',1,'Animais']]],
+  ['setorigem_248',['setOrigem',['../class_servico_transporte.html#a159b199751753c8740bfac11979eedbd',1,'ServicoTransporte']]],
+  ['setsalario_249',['setSalario',['../class_motorista.html#ae990a3d6c762191006ca6a624779c626',1,'Motorista']]],
+  ['setservicos_250',['setServicos',['../class_empresa.html#a423d833ba25ff6f590d7d0975151b19d',1,'Empresa::setServicos()'],['../class_cliente.html#a303bbce048f3ae703cbe7312645308b9',1,'Cliente::setServicos()']]],
+  ['settempmin_251',['setTempMin',['../class_congelacao.html#a00d1596970c3599a02da8a384004f563',1,'Congelacao']]],
+  ['sortcamioes_252',['sortCamioes',['../class_empresa.html#a2220fe5563a29659448281286849a3fb',1,'Empresa']]]
+];

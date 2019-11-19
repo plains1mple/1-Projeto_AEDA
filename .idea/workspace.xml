@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Projeto_AEDA" targetName="Projeto_AEDA" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16b1b749-609e-474a-abd1-be5edf063e2b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1SCirrw7WTJ7sskfvFqwDkDOtbm" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AEDA\Projeto_AEDA" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Projeto_AEDA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Projeto_AEDA" TARGET_NAME="Projeto_AEDA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Projeto_AEDA" RUN_TARGET_NAME="Projeto_AEDA">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16b1b749-609e-474a-abd1-be5edf063e2b" name="Default Changelist" comment="" />
+      <created>1571074179255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571074179255</updated>
+      <workItem from="1571074180425" duration="4355000" />
+      <workItem from="1571145450983" duration="35000" />
+      <workItem from="1571750204179" duration="907000" />
+      <workItem from="1572001798617" duration="4402000" />
+      <workItem from="1572038752627" duration="11000" />
+      <workItem from="1572982726650" duration="14427000" />
+      <workItem from="1573037996824" duration="35000" />
+      <workItem from="1573053260219" duration="2383000" />
+      <workItem from="1573058103555" duration="30314000" />
+      <workItem from="1573135246464" duration="7330000" />
+      <workItem from="1573152290288" duration="46000" />
+      <workItem from="1573152353552" duration="2144000" />
+      <workItem from="1573166230097" duration="2536000" />
+      <workItem from="1573171065502" duration="8292000" />
+      <workItem from="1573220085495" duration="37627000" />
+      <workItem from="1573305106688" duration="25032000" />
+      <workItem from="1573394944129" duration="18933000" />
+      <workItem from="1573498052892" duration="4070000" />
+      <workItem from="1573559349038" duration="87000" />
+      <workItem from="1573568189503" duration="4555000" />
+      <workItem from="1573575742134" duration="5917000" />
+      <workItem from="1573584281253" duration="10193000" />
+      <workItem from="1573655630743" duration="2628000" />
+      <workItem from="1573665147716" duration="24510000" />
+      <workItem from="1573693199144" duration="360000" />
+      <workItem from="1573728429207" duration="525000" />
+      <workItem from="1573739230667" duration="8523000" />
+      <workItem from="1573754860899" duration="755000" />
+      <workItem from="1573758001245" duration="9187000" />
+      <workItem from="1573827722805" duration="15092000" />
+      <workItem from="1573901751272" duration="14752000" />
+      <workItem from="1574015400393" duration="16000" />
+      <workItem from="1574173146144" duration="2236000" />
+      <workItem from="1574183664009" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/menus.cpp</url>
+          <line>628</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/menus.cpp</url>
+          <line>79</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
