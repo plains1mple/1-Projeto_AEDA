@@ -1,0 +1,191 @@
+\hypertarget{class_cliente}{}\doxysection{Cliente Class Reference}
+\label{class_cliente}\index{Cliente@{Cliente}}
+Inheritance diagram for Cliente\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_cliente}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_cliente_ae7314e28d6a22b770f2d20695222e2d9}{get\+Nif}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o N\+IF do cliente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cliente_a3cfc13c35d09386b9c7f2f88df3cc651}{set\+Nif}} (int nif)
+\begin{DoxyCompactList}\small\item\em Muda o N\+IF do cliente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cliente_a303bbce048f3ae703cbe7312645308b9}{set\+Servicos}} (vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ servicos)
+\begin{DoxyCompactList}\small\item\em Muda os servicos adquiridos pelo cliente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cliente_ad1014fb9a01601c9349d565f1d4ec111}{add\+Servico}} (\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} servico)
+\begin{DoxyCompactList}\small\item\em Adiciona um servico adquirido pelo cliente. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ \mbox{\hyperlink{class_cliente_a951788af815dcd791bb37dedb5fd5bce}{get\+Servicos}} () const
+\begin{DoxyCompactList}\small\item\em Retorna os servicos adquiridos pelo cliente. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_cliente_a003de2df13e725cd8b1639377331ff6f}{Cliente}} (string \mbox{\hyperlink{class_person_a669b64897b4d823a27bb5866368d4dfa}{name}}, int \mbox{\hyperlink{class_person_acf9db1a60683f40b20ae569d29852d69}{age}}, int nif, vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ servicos\+\_\+adquiridos)
+\begin{DoxyCompactList}\small\item\em Construtor de um cliente. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cliente_a4d6c79c2e8a926255dba77ff112fe977}\label{class_cliente_a4d6c79c2e8a926255dba77ff112fe977}} 
+{\bfseries Cliente} (string \mbox{\hyperlink{class_person_a669b64897b4d823a27bb5866368d4dfa}{name}}, int \mbox{\hyperlink{class_person_acf9db1a60683f40b20ae569d29852d69}{age}}, int nif)
+\item 
+bool \mbox{\hyperlink{class_cliente_a516f0fac078bf435c378a3db14801da6}{operator==}} (const \mbox{\hyperlink{class_cliente}{Cliente}} c2)
+\begin{DoxyCompactList}\small\item\em Overload do operador == para averiguar a igualdade de 2 clientes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_cliente_a6ca09f247e4f13ef51251bba0bc6654c}\label{class_cliente_a6ca09f247e4f13ef51251bba0bc6654c}} 
+int {\bfseries nif}
+\item 
+\mbox{\Hypertarget{class_cliente_a01062d79599be1aac6660c629015807d}\label{class_cliente_a01062d79599be1aac6660c629015807d}} 
+vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ {\bfseries servicos\+\_\+adquiridos}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_cliente_a04feff9ed90002950220c16681b0710a}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{class_cliente}{Cliente}} \&c)
+\begin{DoxyCompactList}\small\item\em Overload do operador $<$$<$ para escrever numa stream informacao de um cliente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_cliente_a003de2df13e725cd8b1639377331ff6f}\label{class_cliente_a003de2df13e725cd8b1639377331ff6f}} 
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{Cliente()}{Cliente()}}
+{\footnotesize\ttfamily Cliente\+::\+Cliente (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{int}]{age,  }\item[{int}]{nif,  }\item[{vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$}]{servicos\+\_\+adquiridos }\end{DoxyParamCaption})}
+
+
+
+Construtor de um cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Nome do cliente a ser criado \\
+\hline
+{\em age} & Idade do cliente a ser criado \\
+\hline
+{\em nif} & N\+IF do cliente a ser criado \\
+\hline
+{\em servicos\+\_\+adquiridos} & Servicos adquiridos pelo cliente a ser criado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_cliente}{Cliente}} \mbox{\hyperlink{class_cliente}{Cliente}} criado 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_cliente_ad1014fb9a01601c9349d565f1d4ec111}\label{class_cliente_ad1014fb9a01601c9349d565f1d4ec111}} 
+\index{Cliente@{Cliente}!addServico@{addServico}}
+\index{addServico@{addServico}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{addServico()}{addServico()}}
+{\footnotesize\ttfamily void Cliente\+::add\+Servico (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}}}]{servico }\end{DoxyParamCaption})}
+
+
+
+Adiciona um servico adquirido pelo cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em servico} & Novo servico a adicionar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cliente_ae7314e28d6a22b770f2d20695222e2d9}\label{class_cliente_ae7314e28d6a22b770f2d20695222e2d9}} 
+\index{Cliente@{Cliente}!getNif@{getNif}}
+\index{getNif@{getNif}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{getNif()}{getNif()}}
+{\footnotesize\ttfamily int Cliente\+::get\+Nif (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna o N\+IF do cliente. 
+
+\begin{DoxyReturn}{Returns}
+int N\+IF do cliente 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cliente_a951788af815dcd791bb37dedb5fd5bce}\label{class_cliente_a951788af815dcd791bb37dedb5fd5bce}} 
+\index{Cliente@{Cliente}!getServicos@{getServicos}}
+\index{getServicos@{getServicos}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{getServicos()}{getServicos()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ Cliente\+::get\+Servicos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna os servicos adquiridos pelo cliente. 
+
+\begin{DoxyReturn}{Returns}
+servicos Servicos adquiridos pelo cliente 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cliente_a516f0fac078bf435c378a3db14801da6}\label{class_cliente_a516f0fac078bf435c378a3db14801da6}} 
+\index{Cliente@{Cliente}!operator==@{operator==}}
+\index{operator==@{operator==}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Cliente\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_cliente}{Cliente}}}]{c2 }\end{DoxyParamCaption})}
+
+
+
+Overload do operador == para averiguar a igualdade de 2 clientes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c2} & \mbox{\hyperlink{class_cliente}{Cliente}} a ser comparado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True se os clientes sao iguais, false se nao sao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cliente_a3cfc13c35d09386b9c7f2f88df3cc651}\label{class_cliente_a3cfc13c35d09386b9c7f2f88df3cc651}} 
+\index{Cliente@{Cliente}!setNif@{setNif}}
+\index{setNif@{setNif}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{setNif()}{setNif()}}
+{\footnotesize\ttfamily void Cliente\+::set\+Nif (\begin{DoxyParamCaption}\item[{int}]{nif }\end{DoxyParamCaption})}
+
+
+
+Muda o N\+IF do cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nif} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cliente_a303bbce048f3ae703cbe7312645308b9}\label{class_cliente_a303bbce048f3ae703cbe7312645308b9}} 
+\index{Cliente@{Cliente}!setServicos@{setServicos}}
+\index{setServicos@{setServicos}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{setServicos()}{setServicos()}}
+{\footnotesize\ttfamily void Cliente\+::set\+Servicos (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$}]{servicos }\end{DoxyParamCaption})}
+
+
+
+Muda os servicos adquiridos pelo cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em servicos} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_cliente_a04feff9ed90002950220c16681b0710a}\label{class_cliente_a04feff9ed90002950220c16681b0710a}} 
+\index{Cliente@{Cliente}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Cliente@{Cliente}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_cliente}{Cliente}} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload do operador $<$$<$ para escrever numa stream informacao de um cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & Stream a ser utilizada \\
+\hline
+{\em c} & \mbox{\hyperlink{class_cliente}{Cliente}} a ser lido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ostream Mesma stream utilizada como parametro 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+A\+E\+D\+A/\+Projeto\+\_\+\+A\+E\+D\+A/Person.\+h\item 
+D\+:/\+A\+E\+D\+A/\+Projeto\+\_\+\+A\+E\+D\+A/Person.\+cpp\end{DoxyCompactItemize}

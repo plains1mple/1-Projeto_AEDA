@@ -1,0 +1,581 @@
+\hypertarget{class_empresa}{}\doxysection{Empresa Class Reference}
+\label{class_empresa}\index{Empresa@{Empresa}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_empresa_a2e6c7686f81f34f1109c98bc806e6c6a}{Empresa}} (string \mbox{\hyperlink{class_empresa_adf83367c636f9a91f2932f9d2f91efba}{filename}})
+\begin{DoxyCompactList}\small\item\em Construtor da base de dados da empresa. \end{DoxyCompactList}\item 
+std\+::set$<$ string $>$ \mbox{\hyperlink{class_empresa_ae41f1ffc45c4d85bb543be472b594358}{get\+Localizacoes}} () const
+\begin{DoxyCompactList}\small\item\em Retorna as localizacoes que estao em rotas registadas na empresa. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_empresa_a35751ec90e466839b15d77154d86d8c1}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o nome da empresa. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_empresa_a41f515824c35cd77b9577dff0f854bc6}{get\+Camioes}} () const
+\begin{DoxyCompactList}\small\item\em Retorna os camioes registados na empresa. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_empresa_a9e04762afa3a6a8ec0eb7274871b462a}{get\+Clientes}} () const
+\begin{DoxyCompactList}\small\item\em Retorna os clientes registados na empresa. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_motorista}{Motorista}} $>$ \mbox{\hyperlink{class_empresa_aaaf9484ce6e98fe6327828dc26e9af17}{get\+Motoristas}} () const
+\begin{DoxyCompactList}\small\item\em Retorna os motoristas registados na empresa. \end{DoxyCompactList}\item 
+map$<$ pair$<$ string, string $>$, double $>$ \mbox{\hyperlink{class_empresa_a7c846b5e06cf55b3613c78584e95ae81}{get\+Distancias}} () const
+\begin{DoxyCompactList}\small\item\em Retorna as rotas registadas na empresa, cada rota contendo os dois locais e a distancia entre estes. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ \mbox{\hyperlink{class_empresa_a5eb4277d36454c912858570abadf965d}{get\+Servicos}} () const
+\begin{DoxyCompactList}\small\item\em Retorna os servicos registados na empresa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_ae16122b1a4fa81990b083f717309d889}{set\+Clientes}} (vector$<$ \mbox{\hyperlink{class_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_empresa_a87de492287cc64b954e4e730539b39fd}{clientes}})
+\begin{DoxyCompactList}\small\item\em Muda o registo de clientes na empresa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a5c6b9a03cb16554d68d01d8d7a94b19c}{set\+Motoristas}} (vector$<$ \mbox{\hyperlink{class_motorista}{Motorista}} $>$ \mbox{\hyperlink{class_empresa_a66a63c4f9988f0be4fe2800ed0c34ed6}{motoristas}})
+\begin{DoxyCompactList}\small\item\em Muda o registo de motoristas na empresa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a350a4381e81c84a23a60ef5123dfc201}{set\+Camioes}} (vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_empresa_a6f01a01297a8c3072e9727fcba41dfb3}{camioes}})
+\begin{DoxyCompactList}\small\item\em Muda o registo de camioes na empresa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a423d833ba25ff6f590d7d0975151b19d}{set\+Servicos}} (vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ st)
+\begin{DoxyCompactList}\small\item\em Muda o registo de servicos na empresa. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_empresa_a2503d1e210e4c894e5e6e45d02ce1c93}{get\+Camioes\+Tipo}} (vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_empresa_a6f01a01297a8c3072e9727fcba41dfb3}{camioes}}, string categoria)
+\begin{DoxyCompactList}\small\item\em Retorna os camioes de uma determinada categoria apenas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a0f42791b2ee1c52bcdf54942b20ecc22}{read\+Clientes}} ()
+\begin{DoxyCompactList}\small\item\em Le informacao de clientes no respetivo ficheiro e guarda a informacao na base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a13cc0ff01c98b9398ac319e0d7bf07a5}{read\+Motoristas}} ()
+\begin{DoxyCompactList}\small\item\em Le informacao de motoristas no respetivo ficheiro e guarda a informacao na base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a646395f385dc68d51ed6b7b20dca391a}{read\+Camioes}} ()
+\begin{DoxyCompactList}\small\item\em Le informacao de camioes no respetivo ficheiro e guarda a informacao na base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a342b5efe7ec9cc4b3c8a2d547f0354ff}{read\+Distancias}} ()
+\begin{DoxyCompactList}\small\item\em Le informacao de rotas no respetivo ficheiro e guarda a informacao na base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a9f1ec486dbcce551643b1920397c9abf}{read\+Servicos}} ()
+\begin{DoxyCompactList}\small\item\em Le informacao de servicos no respetivo ficheiro e guarda a informacao na base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a13e201946de87c437eea819531fca7f1}{update\+Clientes}} ()
+\begin{DoxyCompactList}\small\item\em Escreve no respetivo ficheiro a informacao atualizada sobre os clientes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_ab59ffb8519480fcb4660ea1db6776ee7}{update\+Camioes}} ()
+\begin{DoxyCompactList}\small\item\em Escreve no respetivo ficheiro a informacao atualizada sobre os camioes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_ac70541359f516d1f18d56ec5ef4ef540}{update\+Motoristas}} ()
+\begin{DoxyCompactList}\small\item\em Escreve no respetivo ficheiro a informacao atualizada sobre os motoristas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_aa1ee2bbd88c32e4a69b3c20510001877}{update\+Servicos}} ()
+\begin{DoxyCompactList}\small\item\em Escreve no respetivo ficheiro a informacao atualizada sobre os servicos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a9de8760dd090a1687121666569bedf34}{atualizar\+Servicos\+Camiao}} ()
+\begin{DoxyCompactList}\small\item\em Escreve no respetivo ficheiro a informacao atualizada sobre os servicos apos remocao de um camiao. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a4fd2f5707f60ce5dac6667c97e2138d0}{atualizar\+Servicos\+Motorista}} ()
+\begin{DoxyCompactList}\small\item\em Escreve no respetivo ficheiro a informacao atualizada sobre os servicos apos remocao de um motorista. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_empresa_a2220fe5563a29659448281286849a3fb}{sort\+Camioes}} ()
+\begin{DoxyCompactList}\small\item\em Ordena os camiaos pelos km totais percorridos, em ordem ascendente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a6fa33546323983e9707bcfb363786f0a}{adicionar\+Cliente}} (\mbox{\hyperlink{class_cliente}{Cliente}} novo\+Cliente)
+\begin{DoxyCompactList}\small\item\em Adiciona um novo cliente a base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_aeb8d1327fb5404280dad1bbdf4d34c8f}{eliminar\+Cliente}} (\mbox{\hyperlink{class_cliente}{Cliente}} cli)
+\begin{DoxyCompactList}\small\item\em Remove um cliente existente na base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_aa6fb920bfb1f0a72768adc19dbd4f0aa}{adicionar\+Camiao}} (\mbox{\hyperlink{class_camiao}{Camiao}} $\ast$novo\+Camiao)
+\begin{DoxyCompactList}\small\item\em Adiciona um novo camiao a base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_a223f30fcb519c3b0afd18dc72d094b9e}{eliminar\+Camiao}} (\mbox{\hyperlink{class_camiao}{Camiao}} $\ast$c)
+\begin{DoxyCompactList}\small\item\em Remove um camiao existente na base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_afd7fdef8d1022ce1865c3cd2c021a574}{adicionar\+Motorista}} (\mbox{\hyperlink{class_motorista}{Motorista}} mot)
+\begin{DoxyCompactList}\small\item\em Adiciona um novo motorista a base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_acf1ddf65183851c62e201dbcfd2e03fe}{eliminar\+Motorista}} (\mbox{\hyperlink{class_motorista}{Motorista}} mot)
+\begin{DoxyCompactList}\small\item\em Remove um motorista existente na base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_ad37a161d72a430ae55f8fd7aa45af5e1}{adicionar\+Servico}} (\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} st)
+\begin{DoxyCompactList}\small\item\em Adiciona um novo servico a base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_empresa_ab918b63cdaa4e2bf70b91b0c50e9b5f1}{eliminar\+Servico}} (\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} st)
+\begin{DoxyCompactList}\small\item\em Remove um servico existente na base de dados. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_empresa_aeaf35b5f0d9fd063b575f880f494da22}{calcular\+Lucro\+Mensal}} ()
+\begin{DoxyCompactList}\small\item\em Calcula o lucro da empresa, com a soma do preco dos servicos adquiridos subtraidos ao salario dos motoristas. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a3502ee464071f61abdfeb1d4c04eefbc}\label{class_empresa_a3502ee464071f61abdfeb1d4c04eefbc}} 
+vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ {\bfseries servicos\+Disponiveis} ()
+\item 
+\mbox{\Hypertarget{class_empresa_a27757c69a11c4377a1dee63972e5fe48}\label{class_empresa_a27757c69a11c4377a1dee63972e5fe48}} 
+bool {\bfseries is\+Available} (\mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ca, \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} st)
+\item 
+\mbox{\Hypertarget{class_empresa_a1869388d8c6f488b1f2eaca97877f0b0}\label{class_empresa_a1869388d8c6f488b1f2eaca97877f0b0}} 
+void {\bfseries set\+Disponivel} (\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} st)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_empresa_a002b8d14fdfdd614995f842333ff5e51}\label{class_empresa_a002b8d14fdfdd614995f842333ff5e51}} 
+string \mbox{\hyperlink{class_empresa_a002b8d14fdfdd614995f842333ff5e51}{nome}}
+\begin{DoxyCompactList}\small\item\em Nome da empresa. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_adf83367c636f9a91f2932f9d2f91efba}\label{class_empresa_adf83367c636f9a91f2932f9d2f91efba}} 
+string \mbox{\hyperlink{class_empresa_adf83367c636f9a91f2932f9d2f91efba}{filename}}
+\begin{DoxyCompactList}\small\item\em Nome do ficheiro da empresa. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a87de492287cc64b954e4e730539b39fd}\label{class_empresa_a87de492287cc64b954e4e730539b39fd}} 
+vector$<$ \mbox{\hyperlink{class_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_empresa_a87de492287cc64b954e4e730539b39fd}{clientes}}
+\begin{DoxyCompactList}\small\item\em Vetor de clientes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a66a63c4f9988f0be4fe2800ed0c34ed6}\label{class_empresa_a66a63c4f9988f0be4fe2800ed0c34ed6}} 
+vector$<$ \mbox{\hyperlink{class_motorista}{Motorista}} $>$ \mbox{\hyperlink{class_empresa_a66a63c4f9988f0be4fe2800ed0c34ed6}{motoristas}}
+\begin{DoxyCompactList}\small\item\em Vetor de motoristas. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a6f01a01297a8c3072e9727fcba41dfb3}\label{class_empresa_a6f01a01297a8c3072e9727fcba41dfb3}} 
+vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_empresa_a6f01a01297a8c3072e9727fcba41dfb3}{camioes}}
+\begin{DoxyCompactList}\small\item\em Vetor de camioes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_af31885b9425cf8cc699063a03383ad9a}\label{class_empresa_af31885b9425cf8cc699063a03383ad9a}} 
+string \mbox{\hyperlink{class_empresa_af31885b9425cf8cc699063a03383ad9a}{clientes\+\_\+ficheiro}}
+\begin{DoxyCompactList}\small\item\em Nome do ficheiro dos clientes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_af49fb0b0a25fd0e13db20aef40d28d97}\label{class_empresa_af49fb0b0a25fd0e13db20aef40d28d97}} 
+string \mbox{\hyperlink{class_empresa_af49fb0b0a25fd0e13db20aef40d28d97}{motoristas\+\_\+ficheiro}}
+\begin{DoxyCompactList}\small\item\em Nome do ficheiro dos motoristas. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a5887f6df0f2d51806992062c6ed5b737}\label{class_empresa_a5887f6df0f2d51806992062c6ed5b737}} 
+string \mbox{\hyperlink{class_empresa_a5887f6df0f2d51806992062c6ed5b737}{camioes\+\_\+ficheiro}}
+\begin{DoxyCompactList}\small\item\em Nome do ficheiro dos camioes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a5070fd0c49d75099620bc72d4e416b3a}\label{class_empresa_a5070fd0c49d75099620bc72d4e416b3a}} 
+string \mbox{\hyperlink{class_empresa_a5070fd0c49d75099620bc72d4e416b3a}{distancias\+\_\+ficheiro}}
+\begin{DoxyCompactList}\small\item\em Nome do ficheiro das distancias. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_aa58ece01dd7a7304fd184e119180f29f}\label{class_empresa_aa58ece01dd7a7304fd184e119180f29f}} 
+string \mbox{\hyperlink{class_empresa_aa58ece01dd7a7304fd184e119180f29f}{servicos\+\_\+ficheiro}}
+\begin{DoxyCompactList}\small\item\em Nome do ficheiro dos servicos. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a7052ccb14d04dbcddd46b92b97c6892e}\label{class_empresa_a7052ccb14d04dbcddd46b92b97c6892e}} 
+vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ \mbox{\hyperlink{class_empresa_a7052ccb14d04dbcddd46b92b97c6892e}{servicos}}
+\begin{DoxyCompactList}\small\item\em Vetor de servicos de transporte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a00118e0d6a780e64b6eb66afd54c8900}\label{class_empresa_a00118e0d6a780e64b6eb66afd54c8900}} 
+int \mbox{\hyperlink{class_empresa_a00118e0d6a780e64b6eb66afd54c8900}{num\+Camioes}}
+\begin{DoxyCompactList}\small\item\em Numero de camioes da empresa. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_aa3d194fdc31d5fed399ffbbee2959785}\label{class_empresa_aa3d194fdc31d5fed399ffbbee2959785}} 
+map$<$ pair$<$ string, string $>$, double $>$ \mbox{\hyperlink{class_empresa_aa3d194fdc31d5fed399ffbbee2959785}{distancias}}
+\begin{DoxyCompactList}\small\item\em Map contendo as pares de localidades e a respetiva distancia entre elas. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_empresa_a09d73533c82e762b76b3986f7fe5f183}\label{class_empresa_a09d73533c82e762b76b3986f7fe5f183}} 
+std\+::set$<$ string $>$ \mbox{\hyperlink{class_empresa_a09d73533c82e762b76b3986f7fe5f183}{localizacoes}}
+\begin{DoxyCompactList}\small\item\em Set contendo todas as localidades abrangidas pela empresa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_empresa_a2e6c7686f81f34f1109c98bc806e6c6a}\label{class_empresa_a2e6c7686f81f34f1109c98bc806e6c6a}} 
+\index{Empresa@{Empresa}!Empresa@{Empresa}}
+\index{Empresa@{Empresa}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{Empresa()}{Empresa()}}
+{\footnotesize\ttfamily Empresa\+::\+Empresa (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})}
+
+
+
+Construtor da base de dados da empresa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Ficheiro de ponto de partida para ler a informacao da empresa \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_empresa}{Empresa}} Base de dados criada 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_empresa_aa6fb920bfb1f0a72768adc19dbd4f0aa}\label{class_empresa_aa6fb920bfb1f0a72768adc19dbd4f0aa}} 
+\index{Empresa@{Empresa}!adicionarCamiao@{adicionarCamiao}}
+\index{adicionarCamiao@{adicionarCamiao}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{adicionarCamiao()}{adicionarCamiao()}}
+{\footnotesize\ttfamily void Empresa\+::adicionar\+Camiao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camiao}{Camiao}} $\ast$}]{novo\+Camiao }\end{DoxyParamCaption})}
+
+
+
+Adiciona um novo camiao a base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em novo\+Camiao} & \mbox{\hyperlink{class_camiao}{Camiao}} a adicionar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_a6fa33546323983e9707bcfb363786f0a}\label{class_empresa_a6fa33546323983e9707bcfb363786f0a}} 
+\index{Empresa@{Empresa}!adicionarCliente@{adicionarCliente}}
+\index{adicionarCliente@{adicionarCliente}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{adicionarCliente()}{adicionarCliente()}}
+{\footnotesize\ttfamily void Empresa\+::adicionar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_cliente}{Cliente}}}]{novo\+Cliente }\end{DoxyParamCaption})}
+
+
+
+Adiciona um novo cliente a base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em novo\+Cliente} & \mbox{\hyperlink{class_cliente}{Cliente}} a adicionar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_afd7fdef8d1022ce1865c3cd2c021a574}\label{class_empresa_afd7fdef8d1022ce1865c3cd2c021a574}} 
+\index{Empresa@{Empresa}!adicionarMotorista@{adicionarMotorista}}
+\index{adicionarMotorista@{adicionarMotorista}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{adicionarMotorista()}{adicionarMotorista()}}
+{\footnotesize\ttfamily void Empresa\+::adicionar\+Motorista (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_motorista}{Motorista}}}]{mot }\end{DoxyParamCaption})}
+
+
+
+Adiciona um novo motorista a base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mot} & \mbox{\hyperlink{class_motorista}{Motorista}} a adicionar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_ad37a161d72a430ae55f8fd7aa45af5e1}\label{class_empresa_ad37a161d72a430ae55f8fd7aa45af5e1}} 
+\index{Empresa@{Empresa}!adicionarServico@{adicionarServico}}
+\index{adicionarServico@{adicionarServico}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{adicionarServico()}{adicionarServico()}}
+{\footnotesize\ttfamily void Empresa\+::adicionar\+Servico (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}}}]{st }\end{DoxyParamCaption})}
+
+
+
+Adiciona um novo servico a base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em st} & Servico a adicionar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_a9de8760dd090a1687121666569bedf34}\label{class_empresa_a9de8760dd090a1687121666569bedf34}} 
+\index{Empresa@{Empresa}!atualizarServicosCamiao@{atualizarServicosCamiao}}
+\index{atualizarServicosCamiao@{atualizarServicosCamiao}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{atualizarServicosCamiao()}{atualizarServicosCamiao()}}
+{\footnotesize\ttfamily void Empresa\+::atualizar\+Servicos\+Camiao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Escreve no respetivo ficheiro a informacao atualizada sobre os servicos apos remocao de um camiao. 
+
+\mbox{\Hypertarget{class_empresa_a4fd2f5707f60ce5dac6667c97e2138d0}\label{class_empresa_a4fd2f5707f60ce5dac6667c97e2138d0}} 
+\index{Empresa@{Empresa}!atualizarServicosMotorista@{atualizarServicosMotorista}}
+\index{atualizarServicosMotorista@{atualizarServicosMotorista}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{atualizarServicosMotorista()}{atualizarServicosMotorista()}}
+{\footnotesize\ttfamily void Empresa\+::atualizar\+Servicos\+Motorista (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Escreve no respetivo ficheiro a informacao atualizada sobre os servicos apos remocao de um motorista. 
+
+\mbox{\Hypertarget{class_empresa_aeaf35b5f0d9fd063b575f880f494da22}\label{class_empresa_aeaf35b5f0d9fd063b575f880f494da22}} 
+\index{Empresa@{Empresa}!calcularLucroMensal@{calcularLucroMensal}}
+\index{calcularLucroMensal@{calcularLucroMensal}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{calcularLucroMensal()}{calcularLucroMensal()}}
+{\footnotesize\ttfamily double Empresa\+::calcular\+Lucro\+Mensal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calcula o lucro da empresa, com a soma do preco dos servicos adquiridos subtraidos ao salario dos motoristas. 
+
+\begin{DoxyReturn}{Returns}
+double Lucro da empresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_a223f30fcb519c3b0afd18dc72d094b9e}\label{class_empresa_a223f30fcb519c3b0afd18dc72d094b9e}} 
+\index{Empresa@{Empresa}!eliminarCamiao@{eliminarCamiao}}
+\index{eliminarCamiao@{eliminarCamiao}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{eliminarCamiao()}{eliminarCamiao()}}
+{\footnotesize\ttfamily void Empresa\+::eliminar\+Camiao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camiao}{Camiao}} $\ast$}]{c }\end{DoxyParamCaption})}
+
+
+
+Remove um camiao existente na base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \mbox{\hyperlink{class_camiao}{Camiao}} a remover \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_aeb8d1327fb5404280dad1bbdf4d34c8f}\label{class_empresa_aeb8d1327fb5404280dad1bbdf4d34c8f}} 
+\index{Empresa@{Empresa}!eliminarCliente@{eliminarCliente}}
+\index{eliminarCliente@{eliminarCliente}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{eliminarCliente()}{eliminarCliente()}}
+{\footnotesize\ttfamily void Empresa\+::eliminar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_cliente}{Cliente}}}]{cli }\end{DoxyParamCaption})}
+
+
+
+Remove um cliente existente na base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cli} & \mbox{\hyperlink{class_cliente}{Cliente}} a remover \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_acf1ddf65183851c62e201dbcfd2e03fe}\label{class_empresa_acf1ddf65183851c62e201dbcfd2e03fe}} 
+\index{Empresa@{Empresa}!eliminarMotorista@{eliminarMotorista}}
+\index{eliminarMotorista@{eliminarMotorista}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{eliminarMotorista()}{eliminarMotorista()}}
+{\footnotesize\ttfamily void Empresa\+::eliminar\+Motorista (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_motorista}{Motorista}}}]{mot }\end{DoxyParamCaption})}
+
+
+
+Remove um motorista existente na base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mot} & \mbox{\hyperlink{class_motorista}{Motorista}} a remover \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_ab918b63cdaa4e2bf70b91b0c50e9b5f1}\label{class_empresa_ab918b63cdaa4e2bf70b91b0c50e9b5f1}} 
+\index{Empresa@{Empresa}!eliminarServico@{eliminarServico}}
+\index{eliminarServico@{eliminarServico}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{eliminarServico()}{eliminarServico()}}
+{\footnotesize\ttfamily void Empresa\+::eliminar\+Servico (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}}}]{st }\end{DoxyParamCaption})}
+
+
+
+Remove um servico existente na base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em st} & Servico a remover \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_a41f515824c35cd77b9577dff0f854bc6}\label{class_empresa_a41f515824c35cd77b9577dff0f854bc6}} 
+\index{Empresa@{Empresa}!getCamioes@{getCamioes}}
+\index{getCamioes@{getCamioes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{getCamioes()}{getCamioes()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ Empresa\+::get\+Camioes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna os camioes registados na empresa. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Camiao$\ast$$>$ Camioes da empresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_a2503d1e210e4c894e5e6e45d02ce1c93}\label{class_empresa_a2503d1e210e4c894e5e6e45d02ce1c93}} 
+\index{Empresa@{Empresa}!getCamioesTipo@{getCamioesTipo}}
+\index{getCamioesTipo@{getCamioesTipo}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{getCamioesTipo()}{getCamioesTipo()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ Empresa\+::get\+Camioes\+Tipo (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$}]{camioes,  }\item[{string}]{categoria }\end{DoxyParamCaption})}
+
+
+
+Retorna os camioes de uma determinada categoria apenas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em camioes} & Camioes a processar \\
+\hline
+{\em categoria} & Categoria especifica de camioes a retornar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector$<$\+Camiao$\ast$$>$ Camioes de categoria especifica 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_a9e04762afa3a6a8ec0eb7274871b462a}\label{class_empresa_a9e04762afa3a6a8ec0eb7274871b462a}} 
+\index{Empresa@{Empresa}!getClientes@{getClientes}}
+\index{getClientes@{getClientes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{getClientes()}{getClientes()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_cliente}{Cliente}} $>$ Empresa\+::get\+Clientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna os clientes registados na empresa. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Cliente$>$ Clientes da empresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_a7c846b5e06cf55b3613c78584e95ae81}\label{class_empresa_a7c846b5e06cf55b3613c78584e95ae81}} 
+\index{Empresa@{Empresa}!getDistancias@{getDistancias}}
+\index{getDistancias@{getDistancias}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{getDistancias()}{getDistancias()}}
+{\footnotesize\ttfamily map$<$ pair$<$ string, string $>$, double $>$ Empresa\+::get\+Distancias (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna as rotas registadas na empresa, cada rota contendo os dois locais e a distancia entre estes. 
+
+\begin{DoxyReturn}{Returns}
+map $<$pair$<$string,string$>$,double$>$ Rotas da empresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_ae41f1ffc45c4d85bb543be472b594358}\label{class_empresa_ae41f1ffc45c4d85bb543be472b594358}} 
+\index{Empresa@{Empresa}!getLocalizacoes@{getLocalizacoes}}
+\index{getLocalizacoes@{getLocalizacoes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{getLocalizacoes()}{getLocalizacoes()}}
+{\footnotesize\ttfamily std\+::set$<$ string $>$ Empresa\+::get\+Localizacoes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna as localizacoes que estao em rotas registadas na empresa. 
+
+\begin{DoxyReturn}{Returns}
+set$<$string$>$ Localizacoes das rotas registadas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_aaaf9484ce6e98fe6327828dc26e9af17}\label{class_empresa_aaaf9484ce6e98fe6327828dc26e9af17}} 
+\index{Empresa@{Empresa}!getMotoristas@{getMotoristas}}
+\index{getMotoristas@{getMotoristas}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{getMotoristas()}{getMotoristas()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_motorista}{Motorista}} $>$ Empresa\+::get\+Motoristas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna os motoristas registados na empresa. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Motorista$>$ Motoristas da empresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_a35751ec90e466839b15d77154d86d8c1}\label{class_empresa_a35751ec90e466839b15d77154d86d8c1}} 
+\index{Empresa@{Empresa}!getName@{getName}}
+\index{getName@{getName}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily string Empresa\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna o nome da empresa. 
+
+\begin{DoxyReturn}{Returns}
+string Nome da empresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_a5eb4277d36454c912858570abadf965d}\label{class_empresa_a5eb4277d36454c912858570abadf965d}} 
+\index{Empresa@{Empresa}!getServicos@{getServicos}}
+\index{getServicos@{getServicos}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{getServicos()}{getServicos()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$ Empresa\+::get\+Servicos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna os servicos registados na empresa. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Motorista$>$ Servicos da empresa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_a646395f385dc68d51ed6b7b20dca391a}\label{class_empresa_a646395f385dc68d51ed6b7b20dca391a}} 
+\index{Empresa@{Empresa}!readCamioes@{readCamioes}}
+\index{readCamioes@{readCamioes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{readCamioes()}{readCamioes()}}
+{\footnotesize\ttfamily void Empresa\+::read\+Camioes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Le informacao de camioes no respetivo ficheiro e guarda a informacao na base de dados. 
+
+\mbox{\Hypertarget{class_empresa_a0f42791b2ee1c52bcdf54942b20ecc22}\label{class_empresa_a0f42791b2ee1c52bcdf54942b20ecc22}} 
+\index{Empresa@{Empresa}!readClientes@{readClientes}}
+\index{readClientes@{readClientes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{readClientes()}{readClientes()}}
+{\footnotesize\ttfamily void Empresa\+::read\+Clientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Le informacao de clientes no respetivo ficheiro e guarda a informacao na base de dados. 
+
+\mbox{\Hypertarget{class_empresa_a342b5efe7ec9cc4b3c8a2d547f0354ff}\label{class_empresa_a342b5efe7ec9cc4b3c8a2d547f0354ff}} 
+\index{Empresa@{Empresa}!readDistancias@{readDistancias}}
+\index{readDistancias@{readDistancias}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{readDistancias()}{readDistancias()}}
+{\footnotesize\ttfamily void Empresa\+::read\+Distancias (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Le informacao de rotas no respetivo ficheiro e guarda a informacao na base de dados. 
+
+\mbox{\Hypertarget{class_empresa_a13cc0ff01c98b9398ac319e0d7bf07a5}\label{class_empresa_a13cc0ff01c98b9398ac319e0d7bf07a5}} 
+\index{Empresa@{Empresa}!readMotoristas@{readMotoristas}}
+\index{readMotoristas@{readMotoristas}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{readMotoristas()}{readMotoristas()}}
+{\footnotesize\ttfamily void Empresa\+::read\+Motoristas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Le informacao de motoristas no respetivo ficheiro e guarda a informacao na base de dados. 
+
+\mbox{\Hypertarget{class_empresa_a9f1ec486dbcce551643b1920397c9abf}\label{class_empresa_a9f1ec486dbcce551643b1920397c9abf}} 
+\index{Empresa@{Empresa}!readServicos@{readServicos}}
+\index{readServicos@{readServicos}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{readServicos()}{readServicos()}}
+{\footnotesize\ttfamily void Empresa\+::read\+Servicos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Le informacao de servicos no respetivo ficheiro e guarda a informacao na base de dados. 
+
+\mbox{\Hypertarget{class_empresa_a350a4381e81c84a23a60ef5123dfc201}\label{class_empresa_a350a4381e81c84a23a60ef5123dfc201}} 
+\index{Empresa@{Empresa}!setCamioes@{setCamioes}}
+\index{setCamioes@{setCamioes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{setCamioes()}{setCamioes()}}
+{\footnotesize\ttfamily void Empresa\+::set\+Camioes (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$}]{camioes }\end{DoxyParamCaption})}
+
+
+
+Muda o registo de camioes na empresa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em camioes} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_ae16122b1a4fa81990b083f717309d889}\label{class_empresa_ae16122b1a4fa81990b083f717309d889}} 
+\index{Empresa@{Empresa}!setClientes@{setClientes}}
+\index{setClientes@{setClientes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{setClientes()}{setClientes()}}
+{\footnotesize\ttfamily void Empresa\+::set\+Clientes (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_cliente}{Cliente}} $>$}]{clientes }\end{DoxyParamCaption})}
+
+
+
+Muda o registo de clientes na empresa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em clientes} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_a5c6b9a03cb16554d68d01d8d7a94b19c}\label{class_empresa_a5c6b9a03cb16554d68d01d8d7a94b19c}} 
+\index{Empresa@{Empresa}!setMotoristas@{setMotoristas}}
+\index{setMotoristas@{setMotoristas}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{setMotoristas()}{setMotoristas()}}
+{\footnotesize\ttfamily void Empresa\+::set\+Motoristas (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_motorista}{Motorista}} $>$}]{motoristas }\end{DoxyParamCaption})}
+
+
+
+Muda o registo de motoristas na empresa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em motoristas} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_a423d833ba25ff6f590d7d0975151b19d}\label{class_empresa_a423d833ba25ff6f590d7d0975151b19d}} 
+\index{Empresa@{Empresa}!setServicos@{setServicos}}
+\index{setServicos@{setServicos}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{setServicos()}{setServicos()}}
+{\footnotesize\ttfamily void Empresa\+::set\+Servicos (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} $>$}]{st }\end{DoxyParamCaption})}
+
+
+
+Muda o registo de servicos na empresa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em st} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_empresa_a2220fe5563a29659448281286849a3fb}\label{class_empresa_a2220fe5563a29659448281286849a3fb}} 
+\index{Empresa@{Empresa}!sortCamioes@{sortCamioes}}
+\index{sortCamioes@{sortCamioes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{sortCamioes()}{sortCamioes()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ Empresa\+::sort\+Camioes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ordena os camiaos pelos km totais percorridos, em ordem ascendente. 
+
+\mbox{\Hypertarget{class_empresa_ab59ffb8519480fcb4660ea1db6776ee7}\label{class_empresa_ab59ffb8519480fcb4660ea1db6776ee7}} 
+\index{Empresa@{Empresa}!updateCamioes@{updateCamioes}}
+\index{updateCamioes@{updateCamioes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{updateCamioes()}{updateCamioes()}}
+{\footnotesize\ttfamily void Empresa\+::update\+Camioes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Escreve no respetivo ficheiro a informacao atualizada sobre os camioes. 
+
+\mbox{\Hypertarget{class_empresa_a13e201946de87c437eea819531fca7f1}\label{class_empresa_a13e201946de87c437eea819531fca7f1}} 
+\index{Empresa@{Empresa}!updateClientes@{updateClientes}}
+\index{updateClientes@{updateClientes}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{updateClientes()}{updateClientes()}}
+{\footnotesize\ttfamily void Empresa\+::update\+Clientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Escreve no respetivo ficheiro a informacao atualizada sobre os clientes. 
+
+\mbox{\Hypertarget{class_empresa_ac70541359f516d1f18d56ec5ef4ef540}\label{class_empresa_ac70541359f516d1f18d56ec5ef4ef540}} 
+\index{Empresa@{Empresa}!updateMotoristas@{updateMotoristas}}
+\index{updateMotoristas@{updateMotoristas}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{updateMotoristas()}{updateMotoristas()}}
+{\footnotesize\ttfamily void Empresa\+::update\+Motoristas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Escreve no respetivo ficheiro a informacao atualizada sobre os motoristas. 
+
+\mbox{\Hypertarget{class_empresa_aa1ee2bbd88c32e4a69b3c20510001877}\label{class_empresa_aa1ee2bbd88c32e4a69b3c20510001877}} 
+\index{Empresa@{Empresa}!updateServicos@{updateServicos}}
+\index{updateServicos@{updateServicos}!Empresa@{Empresa}}
+\doxysubsubsection{\texorpdfstring{updateServicos()}{updateServicos()}}
+{\footnotesize\ttfamily void Empresa\+::update\+Servicos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Escreve no respetivo ficheiro a informacao atualizada sobre os servicos. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+A\+E\+D\+A/\+Projeto\+\_\+\+A\+E\+D\+A/Empresa.\+h\item 
+D\+:/\+A\+E\+D\+A/\+Projeto\+\_\+\+A\+E\+D\+A/Empresa.\+cpp\end{DoxyCompactItemize}

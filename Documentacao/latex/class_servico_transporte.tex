@@ -1,0 +1,483 @@
+\hypertarget{class_servico_transporte}{}\doxysection{Servico\+Transporte Class Reference}
+\label{class_servico_transporte}\index{ServicoTransporte@{ServicoTransporte}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_servico_transporte_a262dee90d62f36e8a0129c30be908ce2}{get\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Obter o identificador do servico de transporte. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_servico_transporte_a242f5ba60a62abcc23fc8b0f37bdc453}{get\+Origem}} () const
+\begin{DoxyCompactList}\small\item\em Obter a origem do servico de transporte. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_servico_transporte_ac38c16929d9bed49e95b2face297c4be}{get\+Destino}} () const
+\begin{DoxyCompactList}\small\item\em Obter o destino do servico de transporte. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_servico_transporte_ae48baba60a36d2dd2cd7b0214d0b07d8}{get\+Tipo}} () const
+\begin{DoxyCompactList}\small\item\em Obter o tipo de mercadorias transportadas pelo servico de transporte. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_servico_transporte_a7a9eb5f5a501b2d796e68731c620734e}{set\+Camioes}} (vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_servico_transporte_a7589044cc8da7546198b9cddfa324721}{camioes}})
+\begin{DoxyCompactList}\small\item\em Alterar os camioes usados pelo servico de transporte. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_servico_transporte_aacd3cf068b3ee22a71c5305c644241d4}{set\+Disponibilidade}} (unsigned b)
+\begin{DoxyCompactList}\small\item\em Alterar o estado (disponivel ou nao disponivel) do servico de transporte. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_servico_transporte_a8096345a3a3abc09f355937f61bf0bb7}{get\+Camioes}} () const
+\begin{DoxyCompactList}\small\item\em Obter o vetor de camioes do servico de transporte. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_servico_transporte_ae37493446ee94b0747953104832b7b5f}{Servico\+Transporte}} (int \mbox{\hyperlink{class_servico_transporte_a31c7dd8964104adee1e896323922f6a1}{id}}, string \mbox{\hyperlink{class_servico_transporte_a47f8d67440ee69e4e1554a3e8649cfcd}{origem}}, string \mbox{\hyperlink{class_servico_transporte_a493808c04fd3bc68b717422dfb0de4dc}{destino}}, string \mbox{\hyperlink{class_servico_transporte_a14acfe908f7da31094beb018b77e4f24}{tipo\+\_\+camioes}}, vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_servico_transporte_a7589044cc8da7546198b9cddfa324721}{camioes}}, string \mbox{\hyperlink{class_servico_transporte_ad89e94b5746fc9106fefcd92d47e92af}{horario}}, \mbox{\hyperlink{struct_date}{Date}} \mbox{\hyperlink{class_servico_transporte_a3352dcdf1861e53a7284daf7ec5be53a}{data}}, unsigned disponivel)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}}. \end{DoxyCompactList}\item 
+unsigned \mbox{\hyperlink{class_servico_transporte_ade88863b236a5393ac846688f1680290}{get\+Disponibilidade}} () const
+\begin{DoxyCompactList}\small\item\em Obter o valor que controla a disponibilidade do servico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_servico_transporte_a159b199751753c8740bfac11979eedbd}{set\+Origem}} (string \mbox{\hyperlink{class_servico_transporte_a47f8d67440ee69e4e1554a3e8649cfcd}{origem}})
+\begin{DoxyCompactList}\small\item\em Mudar o valor da origem do servico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_servico_transporte_ae7ecc0586b9718c64c9da92c6560837a}{set\+Destino}} (string \mbox{\hyperlink{class_servico_transporte_a493808c04fd3bc68b717422dfb0de4dc}{destino}})
+\begin{DoxyCompactList}\small\item\em Mudar o valor da origem do servico de transporte. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_servico_transporte_a7c711d73120acb937ae13dd057a9af17}{set\+Id}} (int \mbox{\hyperlink{class_servico_transporte_a31c7dd8964104adee1e896323922f6a1}{id}})
+\begin{DoxyCompactList}\small\item\em Mudar o valor do identificador do servico de transporte. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_servico_transporte_a91ee5e377fce96e87030fe2f8f98e18f}{set\+Horario}} (string \mbox{\hyperlink{class_servico_transporte_ad89e94b5746fc9106fefcd92d47e92af}{horario}})
+\begin{DoxyCompactList}\small\item\em Mudar o valor do horario do servico de transporte. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_servico_transporte_a5e4317f21128c569611b46b4ecdd2c11}{set\+Date}} (const \mbox{\hyperlink{struct_date}{Date}} \&d)
+\begin{DoxyCompactList}\small\item\em Mudar o valor da data do servico de transporte. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_servico_transporte_ada993ba331d5ce34b82b43f0031be83a}{get\+Distancia}} (map$<$ pair$<$ string, string $>$, double $>$ distancias) const
+\begin{DoxyCompactList}\small\item\em Obter os valores da distancia entre duas localidades. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_servico_transporte_a71a9f19b111487b40bd97589c8a7d095}{get\+Horario}} () const
+\begin{DoxyCompactList}\small\item\em Obter o horario do servico de transporte. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_date}{Date}} \mbox{\hyperlink{class_servico_transporte_afff9d3821d42747f79efbb74209ac1ed}{get\+Date}} () const
+\begin{DoxyCompactList}\small\item\em Obter a data do servico de transporte. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_servico_transporte_ad69974b9d4ed3607dc7c16d92db4703f}{get\+Preco}} (map$<$ pair$<$ string, string $>$, double $>$ distancias) const
+\begin{DoxyCompactList}\small\item\em Calcular o preco de um servico de transporte. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_servico_transporte_aa250ac555ec83aad5e64cc6f1457d7b9}{operator==}} (\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} st2)
+\begin{DoxyCompactList}\small\item\em Overload do operador == para averiguar igualdade entre dois servicos de transporte. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_servico_transporte_a62a2ea718175b4bce2b7205fa3cf23a7}{atualiza\+ID}} ()
+\begin{DoxyCompactList}\small\item\em Metodo que permite atualizar o valor de global\+ID. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{class_servico_transporte_a2def2b82f0222b0387ddf8bb3a74dbed}{Normal\+Multiplicador}} = 1
+\begin{DoxyCompactList}\small\item\em Multiplicador usado para calcular o preco de um servico de transporte de camioes \char`\"{}normais\char`\"{}. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_servico_transporte_ae72521d56c82068c92a2387da4a6c19f}{Perigosos\+Multiplicador}} = 5
+\begin{DoxyCompactList}\small\item\em Multiplicador usado para calcular o preco de um servico de transporte de camioes perigosos. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_servico_transporte_ab3ba59da6e7dc48907ebfab7c398c010}{Congelacao\+Multiplicador}} = 2.\+5
+\begin{DoxyCompactList}\small\item\em Multiplicador usado para calcular o preco de um servico de transporte de camioes de congelacao. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_servico_transporte_a01df7a630f8da72be1b09fc356b38ba8}{Animais\+Multiplicador}} = 3
+\begin{DoxyCompactList}\small\item\em Multiplicador usado para calcular o preco de um servico de transporte de camioes de transporte de animais. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{class_servico_transporte_a13913398c91722b9bd69bdea108e8e45}{global\+ID}} = 1
+\begin{DoxyCompactList}\small\item\em Identificador global (sequencial) dos servicos de transporte. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_servico_transporte_a31c7dd8964104adee1e896323922f6a1}\label{class_servico_transporte_a31c7dd8964104adee1e896323922f6a1}} 
+int \mbox{\hyperlink{class_servico_transporte_a31c7dd8964104adee1e896323922f6a1}{id}}
+\begin{DoxyCompactList}\small\item\em Identificador do servico de transporte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_servico_transporte_a14acfe908f7da31094beb018b77e4f24}\label{class_servico_transporte_a14acfe908f7da31094beb018b77e4f24}} 
+string \mbox{\hyperlink{class_servico_transporte_a14acfe908f7da31094beb018b77e4f24}{tipo\+\_\+camioes}}
+\begin{DoxyCompactList}\small\item\em Tipo dos camioes usados no servico de transporte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_servico_transporte_a7589044cc8da7546198b9cddfa324721}\label{class_servico_transporte_a7589044cc8da7546198b9cddfa324721}} 
+vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ \mbox{\hyperlink{class_servico_transporte_a7589044cc8da7546198b9cddfa324721}{camioes}}
+\begin{DoxyCompactList}\small\item\em Vetor de camioes usados no servico de transporte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_servico_transporte_a47f8d67440ee69e4e1554a3e8649cfcd}\label{class_servico_transporte_a47f8d67440ee69e4e1554a3e8649cfcd}} 
+string \mbox{\hyperlink{class_servico_transporte_a47f8d67440ee69e4e1554a3e8649cfcd}{origem}}
+\begin{DoxyCompactList}\small\item\em String contendo a origem do servico de transporte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_servico_transporte_a493808c04fd3bc68b717422dfb0de4dc}\label{class_servico_transporte_a493808c04fd3bc68b717422dfb0de4dc}} 
+string \mbox{\hyperlink{class_servico_transporte_a493808c04fd3bc68b717422dfb0de4dc}{destino}}
+\begin{DoxyCompactList}\small\item\em String contendo o destino do servico de transporte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_servico_transporte_ad89e94b5746fc9106fefcd92d47e92af}\label{class_servico_transporte_ad89e94b5746fc9106fefcd92d47e92af}} 
+string \mbox{\hyperlink{class_servico_transporte_ad89e94b5746fc9106fefcd92d47e92af}{horario}}
+\begin{DoxyCompactList}\small\item\em String contendo o horario do servico de transporte. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_servico_transporte_a3352dcdf1861e53a7284daf7ec5be53a}\label{class_servico_transporte_a3352dcdf1861e53a7284daf7ec5be53a}} 
+\mbox{\hyperlink{struct_date}{Date}} \mbox{\hyperlink{class_servico_transporte_a3352dcdf1861e53a7284daf7ec5be53a}{data}}
+\begin{DoxyCompactList}\small\item\em Data do servico. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_servico_transporte_ae951d2c999e0a5d731e4ac24a3b2990f}\label{class_servico_transporte_ae951d2c999e0a5d731e4ac24a3b2990f}} 
+unsigned \mbox{\hyperlink{class_servico_transporte_ae951d2c999e0a5d731e4ac24a3b2990f}{servico\+Disponivel}}
+\begin{DoxyCompactList}\small\item\em Valor que verifica se o servico esta disponivel (1) ou nao (0) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_servico_transporte_a78f5ef304e2485608738aa65e6d961a9}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} \&st)
+\begin{DoxyCompactList}\small\item\em Overload do operador $<$$<$ de modo a escrever um servico de transportes numa stream. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_servico_transporte_ae37493446ee94b0747953104832b7b5f}\label{class_servico_transporte_ae37493446ee94b0747953104832b7b5f}} 
+\index{ServicoTransporte@{ServicoTransporte}!ServicoTransporte@{ServicoTransporte}}
+\index{ServicoTransporte@{ServicoTransporte}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{ServicoTransporte()}{ServicoTransporte()}}
+{\footnotesize\ttfamily Servico\+Transporte\+::\+Servico\+Transporte (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{string}]{origem,  }\item[{string}]{destino,  }\item[{string}]{tipo\+\_\+camioes,  }\item[{vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$}]{camioes,  }\item[{string}]{horario,  }\item[{\mbox{\hyperlink{struct_date}{Date}}}]{data,  }\item[{unsigned}]{disponivel }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificador do servico de transporte \\
+\hline
+{\em origem} & Origem do servico de transporte \\
+\hline
+{\em destino} & Destino do servico de transporte \\
+\hline
+{\em tipo\+\_\+camioes} & Tipo de mercadorias transportadas pelo servico de transportes \\
+\hline
+{\em camioes} & Vetor contendo apontadores para camioes usados pelo servico de transporte \\
+\hline
+{\em horario} & String contendo o horario do servico de transportes \\
+\hline
+{\em data} & Data do servico de transporte \\
+\hline
+{\em disponivel} & Valor que controla a disponibilidade do servico de transporte \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_servico_transporte_a62a2ea718175b4bce2b7205fa3cf23a7}\label{class_servico_transporte_a62a2ea718175b4bce2b7205fa3cf23a7}} 
+\index{ServicoTransporte@{ServicoTransporte}!atualizaID@{atualizaID}}
+\index{atualizaID@{atualizaID}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{atualizaID()}{atualizaID()}}
+{\footnotesize\ttfamily void Servico\+Transporte\+::atualiza\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Metodo que permite atualizar o valor de global\+ID. 
+
+\mbox{\Hypertarget{class_servico_transporte_a8096345a3a3abc09f355937f61bf0bb7}\label{class_servico_transporte_a8096345a3a3abc09f355937f61bf0bb7}} 
+\index{ServicoTransporte@{ServicoTransporte}!getCamioes@{getCamioes}}
+\index{getCamioes@{getCamioes}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getCamioes()}{getCamioes()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$ Servico\+Transporte\+::get\+Camioes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obter o vetor de camioes do servico de transporte. 
+
+\begin{DoxyReturn}{Returns}
+Vetor de apontadores para camioes usados no servico de transporte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_afff9d3821d42747f79efbb74209ac1ed}\label{class_servico_transporte_afff9d3821d42747f79efbb74209ac1ed}} 
+\index{ServicoTransporte@{ServicoTransporte}!getDate@{getDate}}
+\index{getDate@{getDate}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getDate()}{getDate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_date}{Date}} Servico\+Transporte\+::get\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obter a data do servico de transporte. 
+
+\begin{DoxyReturn}{Returns}
+String contendo a data dos servicos de transporte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_ac38c16929d9bed49e95b2face297c4be}\label{class_servico_transporte_ac38c16929d9bed49e95b2face297c4be}} 
+\index{ServicoTransporte@{ServicoTransporte}!getDestino@{getDestino}}
+\index{getDestino@{getDestino}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getDestino()}{getDestino()}}
+{\footnotesize\ttfamily string Servico\+Transporte\+::get\+Destino (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obter o destino do servico de transporte. 
+
+\begin{DoxyReturn}{Returns}
+String contendo o destino do servico de transporte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_ade88863b236a5393ac846688f1680290}\label{class_servico_transporte_ade88863b236a5393ac846688f1680290}} 
+\index{ServicoTransporte@{ServicoTransporte}!getDisponibilidade@{getDisponibilidade}}
+\index{getDisponibilidade@{getDisponibilidade}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getDisponibilidade()}{getDisponibilidade()}}
+{\footnotesize\ttfamily unsigned Servico\+Transporte\+::get\+Disponibilidade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obter o valor que controla a disponibilidade do servico. 
+
+\begin{DoxyReturn}{Returns}
+Unsigned int que contem o valor 1 se o servico estiver disponivel, 0 caso contrario 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_ada993ba331d5ce34b82b43f0031be83a}\label{class_servico_transporte_ada993ba331d5ce34b82b43f0031be83a}} 
+\index{ServicoTransporte@{ServicoTransporte}!getDistancia@{getDistancia}}
+\index{getDistancia@{getDistancia}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getDistancia()}{getDistancia()}}
+{\footnotesize\ttfamily double Servico\+Transporte\+::get\+Distancia (\begin{DoxyParamCaption}\item[{map$<$ pair$<$ string, string $>$, double $>$}]{distancias }\end{DoxyParamCaption}) const}
+
+
+
+Obter os valores da distancia entre duas localidades. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em distancias} & map contendo as distancias para todos os pares de localidades abrangidos pela empresa de transportes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_a71a9f19b111487b40bd97589c8a7d095}\label{class_servico_transporte_a71a9f19b111487b40bd97589c8a7d095}} 
+\index{ServicoTransporte@{ServicoTransporte}!getHorario@{getHorario}}
+\index{getHorario@{getHorario}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getHorario()}{getHorario()}}
+{\footnotesize\ttfamily string Servico\+Transporte\+::get\+Horario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obter o horario do servico de transporte. 
+
+\begin{DoxyReturn}{Returns}
+String contendo o horario dos servicos de transporte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_a262dee90d62f36e8a0129c30be908ce2}\label{class_servico_transporte_a262dee90d62f36e8a0129c30be908ce2}} 
+\index{ServicoTransporte@{ServicoTransporte}!getId@{getId}}
+\index{getId@{getId}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int Servico\+Transporte\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obter o identificador do servico de transporte. 
+
+\begin{DoxyReturn}{Returns}
+Inteiro contendo o identificador do servico de transporte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_a242f5ba60a62abcc23fc8b0f37bdc453}\label{class_servico_transporte_a242f5ba60a62abcc23fc8b0f37bdc453}} 
+\index{ServicoTransporte@{ServicoTransporte}!getOrigem@{getOrigem}}
+\index{getOrigem@{getOrigem}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getOrigem()}{getOrigem()}}
+{\footnotesize\ttfamily string Servico\+Transporte\+::get\+Origem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obter a origem do servico de transporte. 
+
+\begin{DoxyReturn}{Returns}
+String contendo a origem do servico de transporte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_ad69974b9d4ed3607dc7c16d92db4703f}\label{class_servico_transporte_ad69974b9d4ed3607dc7c16d92db4703f}} 
+\index{ServicoTransporte@{ServicoTransporte}!getPreco@{getPreco}}
+\index{getPreco@{getPreco}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getPreco()}{getPreco()}}
+{\footnotesize\ttfamily double Servico\+Transporte\+::get\+Preco (\begin{DoxyParamCaption}\item[{map$<$ pair$<$ string, string $>$, double $>$}]{distancias }\end{DoxyParamCaption}) const}
+
+
+
+Calcular o preco de um servico de transporte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em distancias} & Distancias entre todos os pares de localidades \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Double contendo o valor do preco do servico de transporte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_ae48baba60a36d2dd2cd7b0214d0b07d8}\label{class_servico_transporte_ae48baba60a36d2dd2cd7b0214d0b07d8}} 
+\index{ServicoTransporte@{ServicoTransporte}!getTipo@{getTipo}}
+\index{getTipo@{getTipo}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{getTipo()}{getTipo()}}
+{\footnotesize\ttfamily string Servico\+Transporte\+::get\+Tipo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obter o tipo de mercadorias transportadas pelo servico de transporte. 
+
+\begin{DoxyReturn}{Returns}
+String contendo o tipo de mercadorias transportadas pelo servico de transportes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_aa250ac555ec83aad5e64cc6f1457d7b9}\label{class_servico_transporte_aa250ac555ec83aad5e64cc6f1457d7b9}} 
+\index{ServicoTransporte@{ServicoTransporte}!operator==@{operator==}}
+\index{operator==@{operator==}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Servico\+Transporte\+::operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}}}]{st2 }\end{DoxyParamCaption})}
+
+
+
+Overload do operador == para averiguar igualdade entre dois servicos de transporte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em st2} & servico de transporte a comparar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True se os servicos forem iguais, false caso contrario 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_servico_transporte_a7a9eb5f5a501b2d796e68731c620734e}\label{class_servico_transporte_a7a9eb5f5a501b2d796e68731c620734e}} 
+\index{ServicoTransporte@{ServicoTransporte}!setCamioes@{setCamioes}}
+\index{setCamioes@{setCamioes}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{setCamioes()}{setCamioes()}}
+{\footnotesize\ttfamily void Servico\+Transporte\+::set\+Camioes (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{class_camiao}{Camiao}} $\ast$ $>$}]{camioes }\end{DoxyParamCaption})}
+
+
+
+Alterar os camioes usados pelo servico de transporte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em camioes} & Novo vetor de camioes a atribuir ao servico de transporte \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_servico_transporte_a5e4317f21128c569611b46b4ecdd2c11}\label{class_servico_transporte_a5e4317f21128c569611b46b4ecdd2c11}} 
+\index{ServicoTransporte@{ServicoTransporte}!setDate@{setDate}}
+\index{setDate@{setDate}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{setDate()}{setDate()}}
+{\footnotesize\ttfamily void Servico\+Transporte\+::set\+Date (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_date}{Date}} \&}]{d }\end{DoxyParamCaption})}
+
+
+
+Mudar o valor da data do servico de transporte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & Novo valor da data do servico de transporte \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_servico_transporte_ae7ecc0586b9718c64c9da92c6560837a}\label{class_servico_transporte_ae7ecc0586b9718c64c9da92c6560837a}} 
+\index{ServicoTransporte@{ServicoTransporte}!setDestino@{setDestino}}
+\index{setDestino@{setDestino}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{setDestino()}{setDestino()}}
+{\footnotesize\ttfamily void Servico\+Transporte\+::set\+Destino (\begin{DoxyParamCaption}\item[{string}]{destino }\end{DoxyParamCaption})}
+
+
+
+Mudar o valor da origem do servico de transporte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em destino} & Novo valor do destino do servico de transporte \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_servico_transporte_aacd3cf068b3ee22a71c5305c644241d4}\label{class_servico_transporte_aacd3cf068b3ee22a71c5305c644241d4}} 
+\index{ServicoTransporte@{ServicoTransporte}!setDisponibilidade@{setDisponibilidade}}
+\index{setDisponibilidade@{setDisponibilidade}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{setDisponibilidade()}{setDisponibilidade()}}
+{\footnotesize\ttfamily void Servico\+Transporte\+::set\+Disponibilidade (\begin{DoxyParamCaption}\item[{unsigned}]{b }\end{DoxyParamCaption})}
+
+
+
+Alterar o estado (disponivel ou nao disponivel) do servico de transporte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Novo valor da disponibilidade do servico (1 se disponivel, 0 caso contrario) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_servico_transporte_a91ee5e377fce96e87030fe2f8f98e18f}\label{class_servico_transporte_a91ee5e377fce96e87030fe2f8f98e18f}} 
+\index{ServicoTransporte@{ServicoTransporte}!setHorario@{setHorario}}
+\index{setHorario@{setHorario}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{setHorario()}{setHorario()}}
+{\footnotesize\ttfamily void Servico\+Transporte\+::set\+Horario (\begin{DoxyParamCaption}\item[{string}]{horario }\end{DoxyParamCaption})}
+
+
+
+Mudar o valor do horario do servico de transporte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em horario} & Novo valor do horario do servico de transporte \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_servico_transporte_a7c711d73120acb937ae13dd057a9af17}\label{class_servico_transporte_a7c711d73120acb937ae13dd057a9af17}} 
+\index{ServicoTransporte@{ServicoTransporte}!setId@{setId}}
+\index{setId@{setId}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Servico\+Transporte\+::set\+Id (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Mudar o valor do identificador do servico de transporte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Novo valor do identificador do servico de transporte \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_servico_transporte_a159b199751753c8740bfac11979eedbd}\label{class_servico_transporte_a159b199751753c8740bfac11979eedbd}} 
+\index{ServicoTransporte@{ServicoTransporte}!setOrigem@{setOrigem}}
+\index{setOrigem@{setOrigem}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{setOrigem()}{setOrigem()}}
+{\footnotesize\ttfamily void Servico\+Transporte\+::set\+Origem (\begin{DoxyParamCaption}\item[{string}]{origem }\end{DoxyParamCaption})}
+
+
+
+Mudar o valor da origem do servico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em origem} & String contendo o novo valor da origem do servico \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_servico_transporte_a78f5ef304e2485608738aa65e6d961a9}\label{class_servico_transporte_a78f5ef304e2485608738aa65e6d961a9}} 
+\index{ServicoTransporte@{ServicoTransporte}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_servico_transporte}{Servico\+Transporte}} \&}]{st }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload do operador $<$$<$ de modo a escrever um servico de transportes numa stream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & Stream a ser utilizada \\
+\hline
+{\em st} & Servico de transportes a ser lido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Mesma stream do primeiro parametro 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_servico_transporte_a01df7a630f8da72be1b09fc356b38ba8}\label{class_servico_transporte_a01df7a630f8da72be1b09fc356b38ba8}} 
+\index{ServicoTransporte@{ServicoTransporte}!AnimaisMultiplicador@{AnimaisMultiplicador}}
+\index{AnimaisMultiplicador@{AnimaisMultiplicador}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{AnimaisMultiplicador}{AnimaisMultiplicador}}
+{\footnotesize\ttfamily double Servico\+Transporte\+::\+Animais\+Multiplicador = 3\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Multiplicador usado para calcular o preco de um servico de transporte de camioes de transporte de animais. 
+
+\mbox{\Hypertarget{class_servico_transporte_ab3ba59da6e7dc48907ebfab7c398c010}\label{class_servico_transporte_ab3ba59da6e7dc48907ebfab7c398c010}} 
+\index{ServicoTransporte@{ServicoTransporte}!CongelacaoMultiplicador@{CongelacaoMultiplicador}}
+\index{CongelacaoMultiplicador@{CongelacaoMultiplicador}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{CongelacaoMultiplicador}{CongelacaoMultiplicador}}
+{\footnotesize\ttfamily double Servico\+Transporte\+::\+Congelacao\+Multiplicador = 2.\+5\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Multiplicador usado para calcular o preco de um servico de transporte de camioes de congelacao. 
+
+\mbox{\Hypertarget{class_servico_transporte_a13913398c91722b9bd69bdea108e8e45}\label{class_servico_transporte_a13913398c91722b9bd69bdea108e8e45}} 
+\index{ServicoTransporte@{ServicoTransporte}!globalID@{globalID}}
+\index{globalID@{globalID}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{globalID}{globalID}}
+{\footnotesize\ttfamily int Servico\+Transporte\+::global\+ID = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Identificador global (sequencial) dos servicos de transporte. 
+
+\mbox{\Hypertarget{class_servico_transporte_a2def2b82f0222b0387ddf8bb3a74dbed}\label{class_servico_transporte_a2def2b82f0222b0387ddf8bb3a74dbed}} 
+\index{ServicoTransporte@{ServicoTransporte}!NormalMultiplicador@{NormalMultiplicador}}
+\index{NormalMultiplicador@{NormalMultiplicador}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{NormalMultiplicador}{NormalMultiplicador}}
+{\footnotesize\ttfamily double Servico\+Transporte\+::\+Normal\+Multiplicador = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Multiplicador usado para calcular o preco de um servico de transporte de camioes \char`\"{}normais\char`\"{}. 
+
+\mbox{\Hypertarget{class_servico_transporte_ae72521d56c82068c92a2387da4a6c19f}\label{class_servico_transporte_ae72521d56c82068c92a2387da4a6c19f}} 
+\index{ServicoTransporte@{ServicoTransporte}!PerigososMultiplicador@{PerigososMultiplicador}}
+\index{PerigososMultiplicador@{PerigososMultiplicador}!ServicoTransporte@{ServicoTransporte}}
+\doxysubsubsection{\texorpdfstring{PerigososMultiplicador}{PerigososMultiplicador}}
+{\footnotesize\ttfamily double Servico\+Transporte\+::\+Perigosos\+Multiplicador = 5\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Multiplicador usado para calcular o preco de um servico de transporte de camioes perigosos. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+A\+E\+D\+A/\+Projeto\+\_\+\+A\+E\+D\+A/Servico\+Transporte.\+h\item 
+D\+:/\+A\+E\+D\+A/\+Projeto\+\_\+\+A\+E\+D\+A/Servico\+Transporte.\+cpp\end{DoxyCompactItemize}

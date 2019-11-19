@@ -1,0 +1,289 @@
+\hypertarget{class_motorista}{}\doxysection{Motorista Class Reference}
+\label{class_motorista}\index{Motorista@{Motorista}}
+Inheritance diagram for Motorista\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_motorista}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+unsigned \mbox{\hyperlink{class_motorista_ab61fcf2621f2f3e5870d12b50089a184}{get\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o ID do motorista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_motorista_ae990a3d6c762191006ca6a624779c626}{set\+Salario}} (int salary)
+\begin{DoxyCompactList}\small\item\em Muda o salario do motorista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_motorista_a8415d43dd3ed1f1b40e196668ac3bc06}{set\+Horario}} (pair$<$ string, string $>$ time)
+\begin{DoxyCompactList}\small\item\em Muda o horario do motorista, usando um par de hora de inicio/fim. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_motorista_a45d466e4a6b6deca74289ee175bd220f}{set\+Horario}} (string inicio, string fim)
+\begin{DoxyCompactList}\small\item\em Muda o horario do motorista, usando string separadas de hora de inicio/fim. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_motorista_a3c12478dd2dae4f5a7f2fe65b6cba3bb}{set\+Categorias}} (vector$<$ char $>$ category)
+\begin{DoxyCompactList}\small\item\em Muda as categorias do motorista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_motorista_ad2e0405f69b01c9034e60c6e7310f8f8}{get\+Salario}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o salario do motorista. \end{DoxyCompactList}\item 
+pair$<$ string, string $>$ \mbox{\hyperlink{class_motorista_a0ae05e9748b25c48f1deb9e07a503bba}{get\+Horario}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o horario do motorista. \end{DoxyCompactList}\item 
+vector$<$ char $>$ \mbox{\hyperlink{class_motorista_a6afa9c690df90ed5642ea6467d3df5b3}{get\+Categorias}} () const
+\begin{DoxyCompactList}\small\item\em Retorna as categorias do motorista. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_motorista_a9b625404de11ce9113cb29265a5a4cfd}{is\+Working}} (string time) const
+\begin{DoxyCompactList}\small\item\em Averigua se o motorista esta a trabalhar durante a hora especificada. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_motorista_af002678282bfedc999251e9e0f0b52f0}{Motorista}} (string \mbox{\hyperlink{class_person_a669b64897b4d823a27bb5866368d4dfa}{name}}, int \mbox{\hyperlink{class_person_acf9db1a60683f40b20ae569d29852d69}{age}}, int salario, pair$<$ string, string $>$ horario, vector$<$ char $>$ categorias)
+\begin{DoxyCompactList}\small\item\em Construtor de um motorista. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_motorista_a66f2e19d907477a06f04e6483e5d5cda}{operator==}} (const \mbox{\hyperlink{class_motorista}{Motorista}} m)
+\begin{DoxyCompactList}\small\item\em Overload do operador == para averiguar a igualdade de 2 motoristas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static unsigned \mbox{\hyperlink{class_motorista_ad66be473347ac77276098089413ca4a4}{get\+Last\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Retorna o ID do motorista mais recente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_motorista_a9f3cb083886b136c8920c5633f00eb74}\label{class_motorista_a9f3cb083886b136c8920c5633f00eb74}} 
+unsigned {\bfseries id}
+\item 
+\mbox{\Hypertarget{class_motorista_a4c7effeeb1b77bc2947dd48d5135ad62}\label{class_motorista_a4c7effeeb1b77bc2947dd48d5135ad62}} 
+int {\bfseries salario}
+\item 
+\mbox{\Hypertarget{class_motorista_a7100523a70538088002a69a84b046646}\label{class_motorista_a7100523a70538088002a69a84b046646}} 
+pair$<$ string, string $>$ {\bfseries horario}
+\item 
+\mbox{\Hypertarget{class_motorista_ad3830c67074d8d22598333e73375ea90}\label{class_motorista_ad3830c67074d8d22598333e73375ea90}} 
+vector$<$ char $>$ {\bfseries categorias}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_motorista_a8c3b5320acbdaa7d968ed5746985ba29}\label{class_motorista_a8c3b5320acbdaa7d968ed5746985ba29}} 
+static unsigned {\bfseries last\+\_\+id} = 0
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_motorista_a03a47773869fc47ac64863ba6d3690a9}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{class_motorista}{Motorista}} \&m)
+\begin{DoxyCompactList}\small\item\em Overload do operador $<$$<$ para escrever numa stream informacao de um motorista. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_motorista_af002678282bfedc999251e9e0f0b52f0}\label{class_motorista_af002678282bfedc999251e9e0f0b52f0}} 
+\index{Motorista@{Motorista}!Motorista@{Motorista}}
+\index{Motorista@{Motorista}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{Motorista()}{Motorista()}}
+{\footnotesize\ttfamily Motorista\+::\+Motorista (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{int}]{age,  }\item[{int}]{salario,  }\item[{pair$<$ string, string $>$}]{horario,  }\item[{vector$<$ char $>$}]{categorias }\end{DoxyParamCaption})}
+
+
+
+Construtor de um motorista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Nome do motorista a ser criado \\
+\hline
+{\em age} & Idade do motorista a ser criado \\
+\hline
+{\em salario} & Salario do motorista a ser criado \\
+\hline
+{\em horario} & Horario do motorista a ser criado \\
+\hline
+{\em categorias} & Categorias do motorista a ser criado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_motorista}{Motorista}} \mbox{\hyperlink{class_motorista}{Motorista}} criado 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_motorista_a6afa9c690df90ed5642ea6467d3df5b3}\label{class_motorista_a6afa9c690df90ed5642ea6467d3df5b3}} 
+\index{Motorista@{Motorista}!getCategorias@{getCategorias}}
+\index{getCategorias@{getCategorias}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{getCategorias()}{getCategorias()}}
+{\footnotesize\ttfamily vector$<$ char $>$ Motorista\+::get\+Categorias (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna as categorias do motorista. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$char$>$ Categorias do motorista 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_motorista_a0ae05e9748b25c48f1deb9e07a503bba}\label{class_motorista_a0ae05e9748b25c48f1deb9e07a503bba}} 
+\index{Motorista@{Motorista}!getHorario@{getHorario}}
+\index{getHorario@{getHorario}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{getHorario()}{getHorario()}}
+{\footnotesize\ttfamily pair$<$ string, string $>$ Motorista\+::get\+Horario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna o horario do motorista. 
+
+\begin{DoxyReturn}{Returns}
+pair$<$string, string$>$ Horario do motorista 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_motorista_ab61fcf2621f2f3e5870d12b50089a184}\label{class_motorista_ab61fcf2621f2f3e5870d12b50089a184}} 
+\index{Motorista@{Motorista}!getId@{getId}}
+\index{getId@{getId}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily unsigned Motorista\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna o ID do motorista. 
+
+\begin{DoxyReturn}{Returns}
+unsigned ID do motorista 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_motorista_ad66be473347ac77276098089413ca4a4}\label{class_motorista_ad66be473347ac77276098089413ca4a4}} 
+\index{Motorista@{Motorista}!getLastId@{getLastId}}
+\index{getLastId@{getLastId}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{getLastId()}{getLastId()}}
+{\footnotesize\ttfamily unsigned Motorista\+::get\+Last\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Retorna o ID do motorista mais recente. 
+
+\begin{DoxyReturn}{Returns}
+unsigned ID do motorista mais recente 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_motorista_ad2e0405f69b01c9034e60c6e7310f8f8}\label{class_motorista_ad2e0405f69b01c9034e60c6e7310f8f8}} 
+\index{Motorista@{Motorista}!getSalario@{getSalario}}
+\index{getSalario@{getSalario}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{getSalario()}{getSalario()}}
+{\footnotesize\ttfamily int Motorista\+::get\+Salario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retorna o salario do motorista. 
+
+\begin{DoxyReturn}{Returns}
+int Salario do motorista 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_motorista_a9b625404de11ce9113cb29265a5a4cfd}\label{class_motorista_a9b625404de11ce9113cb29265a5a4cfd}} 
+\index{Motorista@{Motorista}!isWorking@{isWorking}}
+\index{isWorking@{isWorking}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{isWorking()}{isWorking()}}
+{\footnotesize\ttfamily bool Motorista\+::is\+Working (\begin{DoxyParamCaption}\item[{string}]{time }\end{DoxyParamCaption}) const}
+
+
+
+Averigua se o motorista esta a trabalhar durante a hora especificada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Hora especificada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True se o motorista esta a trabalhar nessa hora, false se nao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_motorista_a66f2e19d907477a06f04e6483e5d5cda}\label{class_motorista_a66f2e19d907477a06f04e6483e5d5cda}} 
+\index{Motorista@{Motorista}!operator==@{operator==}}
+\index{operator==@{operator==}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Motorista\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_motorista}{Motorista}}}]{m }\end{DoxyParamCaption})}
+
+
+
+Overload do operador == para averiguar a igualdade de 2 motoristas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & \mbox{\hyperlink{class_motorista}{Motorista}} a ser comparado \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True se os motoristas sao iguais, false se nao sao 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_motorista_a3c12478dd2dae4f5a7f2fe65b6cba3bb}\label{class_motorista_a3c12478dd2dae4f5a7f2fe65b6cba3bb}} 
+\index{Motorista@{Motorista}!setCategorias@{setCategorias}}
+\index{setCategorias@{setCategorias}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{setCategorias()}{setCategorias()}}
+{\footnotesize\ttfamily void Motorista\+::set\+Categorias (\begin{DoxyParamCaption}\item[{vector$<$ char $>$}]{category }\end{DoxyParamCaption})}
+
+
+
+Muda as categorias do motorista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em category} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_motorista_a8415d43dd3ed1f1b40e196668ac3bc06}\label{class_motorista_a8415d43dd3ed1f1b40e196668ac3bc06}} 
+\index{Motorista@{Motorista}!setHorario@{setHorario}}
+\index{setHorario@{setHorario}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{setHorario()}{setHorario()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Motorista\+::set\+Horario (\begin{DoxyParamCaption}\item[{pair$<$ string, string $>$}]{time }\end{DoxyParamCaption})}
+
+
+
+Muda o horario do motorista, usando um par de hora de inicio/fim. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_motorista_a45d466e4a6b6deca74289ee175bd220f}\label{class_motorista_a45d466e4a6b6deca74289ee175bd220f}} 
+\index{Motorista@{Motorista}!setHorario@{setHorario}}
+\index{setHorario@{setHorario}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{setHorario()}{setHorario()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Motorista\+::set\+Horario (\begin{DoxyParamCaption}\item[{string}]{inicio,  }\item[{string}]{fim }\end{DoxyParamCaption})}
+
+
+
+Muda o horario do motorista, usando string separadas de hora de inicio/fim. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & Novo valor a ser usado para hora de inicio \\
+\hline
+{\em fim} & Novo valor a ser usado para hora final \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_motorista_ae990a3d6c762191006ca6a624779c626}\label{class_motorista_ae990a3d6c762191006ca6a624779c626}} 
+\index{Motorista@{Motorista}!setSalario@{setSalario}}
+\index{setSalario@{setSalario}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{setSalario()}{setSalario()}}
+{\footnotesize\ttfamily void Motorista\+::set\+Salario (\begin{DoxyParamCaption}\item[{int}]{salary }\end{DoxyParamCaption})}
+
+
+
+Muda o salario do motorista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em salary} & Novo valor a ser usado \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_motorista_a03a47773869fc47ac64863ba6d3690a9}\label{class_motorista_a03a47773869fc47ac64863ba6d3690a9}} 
+\index{Motorista@{Motorista}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Motorista@{Motorista}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_motorista}{Motorista}} \&}]{m }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload do operador $<$$<$ para escrever numa stream informacao de um motorista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & Stream a ser utilizada \\
+\hline
+{\em m} & \mbox{\hyperlink{class_motorista}{Motorista}} a ser lido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ostream Mesma stream utilizada como parametro 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+A\+E\+D\+A/\+Projeto\+\_\+\+A\+E\+D\+A/Person.\+h\item 
+D\+:/\+A\+E\+D\+A/\+Projeto\+\_\+\+A\+E\+D\+A/Person.\+cpp\end{DoxyCompactItemize}
